@@ -37,6 +37,6 @@ uploadData_4gz <- function(data_dir,
                                                statement = state))
         cat('  ',time_segment(consume[3]),'\n')
         res=res+consume[3]
-        if (i==length(x)) cat('  ',time_segment(res),'\n')
+        if (i==length(tbl_full)) cat('  ',time_segment(res),'\n')
     }
 }
