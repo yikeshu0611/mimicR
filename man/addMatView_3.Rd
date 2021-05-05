@@ -2,20 +2,20 @@
 % Please edit documentation in R/m3_addMatView.R
 \name{addMatView_3}
 \alias{addMatView_3}
-\title{add materialized view data}
+\title{add materialized view data for mimic III}
 \usage{
-addMatView_3(ccs_multi_dx, src)
+addMatView_3(ccs_multi_dx, conn)
 }
 \arguments{
 \item{ccs_multi_dx}{ccs_multi_dx.csv.gz or ccs_multi_dx.csv file path with file name}
 
-\item{src}{connection of MIMIC, if missing, it well be got from global environment by connect_MIMIC}
+\item{conn}{connection of MIMIC, if missing, it well be got from global environment by connect_MIMIC}
 }
 \value{
 94 materialized view data
 }
 \description{
-add materialized view data
+add materialized view data for mimic III
 }
 \examples{
 \donttest{
