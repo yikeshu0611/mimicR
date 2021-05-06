@@ -4,10 +4,10 @@
 \alias{addMatView_4}
 \title{add materialized view data for mimic IV}
 \usage{
-addMatView_4(begin = 1, conn)
+addMatView_4(range, conn)
 }
 \arguments{
-\item{begin}{which begin, default is 1}
+\item{range}{which to be added}
 
 \item{conn}{connection of MIMIC, if missing, it well be got from global environment by connect_MIMIC}
 }
